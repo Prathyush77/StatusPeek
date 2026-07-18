@@ -1,0 +1,1 @@
+console.log("StatusPeek Background Service Worker Started 🚀");
