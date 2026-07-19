@@ -10,6 +10,16 @@
 
     "background" : {
         "service_worker": "src/background/background.js"
-    }
+    },
+
+    "permissions" : [
+        "activeTab",
+        "tabs"
+    ],
+
+    "host_permissions" : [
+        "http://*/*",
+        "https://*/*"
+    ]
     
 }
